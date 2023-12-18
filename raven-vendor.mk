@@ -68,7 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/raven/proprietary/system_ext/lib64/com.google.edgetpu_app_service-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.google.edgetpu_app_service-V2-ndk.so \
     vendor/google/raven/proprietary/system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.google.edgetpu_vendor_service-V2-ndk.so \
     vendor/google/raven/proprietary/system_ext/lib64/libedgetpu_dba.google.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libedgetpu_dba.google.so \
-    vendor/google/raven/proprietary/system_ext/lib64/libhbmsvmanager_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libhbmsvmanager_jni.so \
     vendor/google/raven/proprietary/system_ext/lib64/libmediaadaptor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmediaadaptor.so \
     vendor/google/raven/proprietary/system_ext/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so \
     vendor/google/raven/proprietary/system_ext/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so \
@@ -86,13 +85,9 @@ PRODUCT_PACKAGES += \
     ConnMO \
     DCMO \
     DMService \
-    DeviceIntelligenceNetworkPrebuilt \
-    DevicePersonalizationPrebuiltPixel2021 \
     DiagMon \
     EuiccGoogle \
     HardwareInfo \
-    HotwordEnrollmentOKGoogleFUSION \
-    HotwordEnrollmentXGoogleFUSION \
     OemDmTrigger \
     PixelCameraServicesRaven \
     TetheringEntitlement \
@@ -103,7 +98,6 @@ PRODUCT_PACKAGES += \
     EuiccGoogleOverlay \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
-    HbmSVManager \
     LLKAgent \
     MyVerizonServices \
     OemRilService \
@@ -116,10 +110,7 @@ PRODUCT_PACKAGES += \
     grilservice \
     libhwinfo \
     RadioConfigLib \
-    com.android.hotwordenrollment.common.util \
     com.google.android.camera.experimental2022_system \
-    com.google.android.camera.extensions \
-    com.google.android.camerax.extensions \
     google-ril \
     oemrilhook \
     vendor.google.edgetpu_app_service@1.0-service
